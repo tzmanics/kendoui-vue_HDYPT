@@ -6,6 +6,8 @@ import {
   Button,
   ButtonsInstaller
 } from '@progress/kendo-buttons-vue-wrapper'
+import '@progress/kendo-theme-default/dist/all.css'
+import '@progress/kendo-ui'
 
 Vue.config.productionTip = false
 Vue.use(ButtonsInstaller)
