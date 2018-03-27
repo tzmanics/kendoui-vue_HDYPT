@@ -6,11 +6,16 @@ import {
   Button,
   ButtonsInstaller
 } from '@progress/kendo-buttons-vue-wrapper'
+import {
+  Chart,
+  ChartInstaller
+} from '@progress/kendo-charts-vue-wrapper'
 import '@progress/kendo-theme-default/dist/all.css'
 import '@progress/kendo-ui'
 
 Vue.config.productionTip = false
 Vue.use(ButtonsInstaller)
+Vue.use(ChartInstaller)
 
 /* eslint-disable no-new */
 new Vue({
@@ -18,6 +23,7 @@ new Vue({
   template: '<App/>',
   components: {
     App,
-    Button
+    Button,
+    Chart
   }
 })
